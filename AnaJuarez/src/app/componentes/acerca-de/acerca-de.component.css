@@ -1,0 +1,64 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color: #C3E5AE;
+    text-align: center;
+}
+
+#name{ 
+    font-weight: bolder;
+    margin-top: 20%;   
+    
+}
+
+@media (min-width: 996px){
+    #perfilphoto{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px grey; 
+        left: 2%; 
+        top: 730px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 995px) { 
+    #perfilphoto{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px grey; 
+        left: 3%; 
+        top: 780px;
+    }
+
+}
+
+@media (max-width: 575px){
+    #perfilphoto{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px grey; 
+        left: 30%; 
+        top: 700px;
+    }
+
+}
+
+@media (max-width: 399px){
+    #perfilphoto{
+        position: absolute;
+        width: 40%;
+        border-radius: 100%;
+        box-shadow: 4px 4px 4px grey; 
+        left: 32%; 
+        top: 800px;
+    }
+}
+
+
+
+
