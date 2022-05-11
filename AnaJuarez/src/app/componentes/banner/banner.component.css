@@ -2,3 +2,12 @@ img{
     width: 100%;
     height: 45em;
 }
+
+/*----------VISTA CELULAR------------*/
+@media (max-width: 575px) {
+    img{
+        width: 100%;
+        height: 20em;
+    }
+    
+}
